@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80D31A7285598AF006C236E /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80D31A6285598AF006C236E /* PreviewProvider.swift */; };
 		A8C7457428537685006ABF6D /* EdvoraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C7457328537685006ABF6D /* EdvoraApp.swift */; };
 		A8C7457628537685006ABF6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C7457528537685006ABF6D /* ContentView.swift */; };
 		A8C7457828537688006ABF6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C7457728537688006ABF6D /* Assets.xcassets */; };
 		A8C7457B28537688006ABF6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C7457A28537688006ABF6D /* Preview Assets.xcassets */; };
+		A8C74586285376EB006ABF6D /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C74585285376EB006ABF6D /* Ride.swift */; };
+		A8C7458828537757006ABF6D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C7458728537757006ABF6D /* User.swift */; };
+		A8C7458A28537818006ABF6D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C7458928537818006ABF6D /* Home.swift */; };
+		A8C7458E2853840F006ABF6D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C7458D2853840F006ABF6D /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A80D31A6285598AF006C236E /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		A8C7457028537685006ABF6D /* Edvora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edvora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C7457328537685006ABF6D /* EdvoraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdvoraApp.swift; sourceTree = "<group>"; };
 		A8C7457528537685006ABF6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A8C7457728537688006ABF6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8C7457A28537688006ABF6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8C74585285376EB006ABF6D /* Ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		A8C7458728537757006ABF6D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A8C7458928537818006ABF6D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A8C7458D2853840F006ABF6D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				A8C7457328537685006ABF6D /* EdvoraApp.swift */,
+				A80D31A6285598AF006C236E /* PreviewProvider.swift */,
 				A8C7457528537685006ABF6D /* ContentView.swift */,
+				A8C74584285376CA006ABF6D /* ViewModel */,
+				A8C74582285376AF006ABF6D /* View */,
+				A8C74581285376A5006ABF6D /* Model */,
 				A8C7457728537688006ABF6D /* Assets.xcassets */,
 				A8C7457928537688006ABF6D /* Preview Content */,
 			);
@@ -65,6 +79,31 @@
 				A8C7457A28537688006ABF6D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8C74581285376A5006ABF6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8C74585285376EB006ABF6D /* Ride.swift */,
+				A8C7458728537757006ABF6D /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8C74582285376AF006ABF6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8C7458928537818006ABF6D /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8C74584285376CA006ABF6D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8C7458D2853840F006ABF6D /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C7458828537757006ABF6D /* User.swift in Sources */,
+				A8C7458E2853840F006ABF6D /* HomeViewModel.swift in Sources */,
 				A8C7457628537685006ABF6D /* ContentView.swift in Sources */,
+				A8C7458A28537818006ABF6D /* Home.swift in Sources */,
+				A80D31A7285598AF006C236E /* PreviewProvider.swift in Sources */,
 				A8C7457428537685006ABF6D /* EdvoraApp.swift in Sources */,
+				A8C74586285376EB006ABF6D /* Ride.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
